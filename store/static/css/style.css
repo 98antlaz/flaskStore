@@ -1,0 +1,34 @@
+.store-header {
+    height: 400px;
+    background-image: url("../img/office.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.store-navbar {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+}
+
+.store-navbar li {
+    float: left;
+}
+
+.store-navbar li.right {
+    float: right;
+}
+
+.store-navbar li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.25s;
+    font-size: 20px;
+}
+
+.store-navbar li a:hover {
+    background-color: #f2f2f2;
+}
