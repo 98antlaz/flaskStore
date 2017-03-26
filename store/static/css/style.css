@@ -2,8 +2,7 @@
     height: 400px;
     background-image: url("../img/office.jpg");
     background-size: 100%;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: top;
 }
 
 .store-navbar {
@@ -31,4 +30,10 @@
 
 .store-navbar li a:hover {
     background-color: #f2f2f2;
+}
+
+.list-container {
+    height: 300px;
+    overflow: auto;
+    overflow-x: hidden;
 }
